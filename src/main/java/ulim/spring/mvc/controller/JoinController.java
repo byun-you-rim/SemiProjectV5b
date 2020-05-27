@@ -5,8 +5,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
-import siestageek.spring.mvc.service.MemberService;
-import siestageek.spring.mvc.vo.MemberVO;
+import ulim.spring.mvc.service.MemberService;
+import ulim.spring.mvc.vo.MemberVO;
+
 
 @Controller
 public class JoinController {
